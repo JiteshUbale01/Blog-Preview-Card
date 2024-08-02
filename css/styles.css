@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F4D04E;
+    display: grid;
+    place-items: center;
+    font-family: "Figtree", sans-serif;
+    
+}
+
+main .container{
+    background-color:white ;
+    width: 384px;
+    height: 522px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.75rem;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+    border: 0.1rem #111111 solid;
+    box-shadow: 7px 6px 0px 3px rgb(17, 17, 17);
+    border-radius: 2rem;
+}
+
+main .container .start .domain{
+    max-width: 82px;
+    background-color: #F4D04E;
+    margin-bottom: 9px;
+    min-width: 82px;
+    height: 29px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+
+main .container .start .domain span{
+    font-weight: 800;
+    line-height: 1.25;
+    width: 100%;
+}
+
+main .container .start .domain p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+main .container .middle h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+main .container .middle h3:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+main .container .middle p{
+    font-weight: 500;
+    color: #6B6B6B;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+main .container .end{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .container .end img{
+    width: 32px;
+    height: 32px;
+}
+
+main .container .end p{
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    main .container h3{
+        font-size: 2.4rem;
+    }
+
+
+}
